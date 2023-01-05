@@ -25,7 +25,8 @@ SECRET_KEY = 'vlcucpl5e_!nlzgg(285rgu2q*1ag*-^el%%%1it6&7&42%mqn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOST = ['*']
+
 
 LOGIN_REDIRECT_URL ='dashboard'
 
@@ -164,3 +165,7 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER = 'kirangreatkart@gmail.com'
 EMAIL_HOST_PASSWORD = 'lemsxywtdeznatvs'
 EMAIL_USE_TLS = True
+
+
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+STATIC_ROOT =os.path.join(BASE_DIR, 'staticfiles')
