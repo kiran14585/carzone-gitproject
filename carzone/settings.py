@@ -26,6 +26,7 @@ SECRET_KEY = 'vlcucpl5e_!nlzgg(285rgu2q*1ag*-^el%%%1it6&7&42%mqn'
 DEBUG = True
 
 ALLOWED_HOST = ['*']
+ALLOWED_HOST = ['web-production-cf71.up.railway.app']
 
 
 LOGIN_REDIRECT_URL ='dashboard'
