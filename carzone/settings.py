@@ -26,7 +26,7 @@ SECRET_KEY = 'vlcucpl5e_!nlzgg(285rgu2q*1ag*-^el%%%1it6&7&42%mqn'
 DEBUG = True
 
 
-ALLOWED_HOST = ['*']
+ALLOWED_HOST = ['carzone-gitproject-production.up.railway.app']
 
 
 LOGIN_REDIRECT_URL ='dashboard'
@@ -97,7 +97,7 @@ DATABASES = {
         'NAME': 'carzone_db',
         'USER':'postgres',
         'PASSWORD':'1234',
-        'HOST':'localhost',
+        'HOST':'carzone-gitproject-production.up.railway.app',
     }
 }
 
